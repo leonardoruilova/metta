@@ -237,58 +237,82 @@ High-level functionality is provided by standard components and applications com
 Exocortex
 
 Exocortex is your external memory and your world representation. As user application, exocortex is a coordinator of agent swarm, doing tasks on your behalf in all reaches of the internets. You can instruct agents to aggregate information from other sources into your exocortex and to publish your information to other media. This swarm implements centralised-decentralised model — whatever you want to publish is generated centrally by you, in your favourite application, in your home environment, then agents can publish, transfer, upload, and share your data across the net to blogs, video services, additional shadow storage etc. In the same manner, whatever agents find out, can be brought to one of your devices and then seamlessly synced between all your devices forming the exocortex. This way you do not have to go for the news, the news come to you. At the same time, things you create are bound to you centrally, as they are emitted from your exocortex and maintain your identity integrity — once you update something, you do not have to go out and update that bit everywhere, it is synced much like p2p networks share data.
+
+
 People
+
 People are connected in social circles or nets. These circles provide layers of content filtering. People in the far out circles have very little influence on the data scores. The first order circle is used to primarily filter content - your immediate contacts have the most influence on what gets to you and what comes from you. The notion of circles is orthogonal to access rights, so people in the first circle do not have to see your content.
+
+
 Content
+
 Content posting is in many formats, like in Tumblr, using various record "types" like Text, Photo, Quote, Link, Chat, Audio, Video. A text for example may be a small excerpt or a whole page or even entire article with typographic markup. While reading, people may annotate such posts (a-la Guzzy), enter their own tags. Tags are added to a whole record tag pool, matching tags from multiple users get higher ranking. People entering the same tags get their recommendation influence strengthened, improving cross-recommendation possibility. This is at the moment pretty manual, but I hope to improve it using agents working on behalf of people.
+
 Recommendations
+
 There are several types of recommendations: direct address (somebody recommends something to you), direct shared (somebody recommends something to all) and indirect (somebody marked something as interesting, by starring it, rating it, writing a review, adding to favourites, pinning etc) People can rate the recommendation itself, by approving it, ignoring or rejecting it. Result of this action affects how the same type of recommendations from the same user will be treated in the future. So builds the recommendation network.
+
+
 Contexts
+
 http://www.remem.org/ The Remembrance Agent - Context data miner.
+
 http://en.wikipedia.org/wiki/Memex - Associative trails
+
 Contexts - the kind of activity you have at your computer. For example, a Chat context would definitely enable all popups and sounds and open multiple chat windows and have a browser preloaded in case your peers share some links. On the other hand a Presentation context will suppress all popups (your colleagues love to see these "Oh, honey, it was great last night" bubbles during presentations or even worse, don't they?), set your status as DND everywhere, suppress sounds and other programs like wifi password dialogs - all you don't need to get in the way when giving presentation. A Screensaver context would kick in when screensaver activates or you lock the screen manually. It will set you to Away everywhere (or even Not Available - depending on options available in particular IM protocol), it will reserve whole screen space for running the screensaver app - no more popups getting through the screensaver like it sometimes happens on X11 with badly written apps, and run it with specified process priority. You can have a Browsing context for example, too. It will fire up your favourite browser(s), have it open the sites you read regularly without need to reopen tabs or load a saved web profile manually.
+
 Hope you can see the power of contexts already.
+
+
 Data
+
 Exocortex data is constantly persisted. You may force local data to be forgotten, but it may be reconstructed later based on its links.
+
 "Ambient communication". You don't really have "programs" for communication, the protocol handlers will install at lower level and communicate using a low-level Common Protocol similar to Telepathy-over-DBus.
+
 The user interface part of this communication can be manyfold, for example there's a notion of centralised contact list called (surprise) the Address Book, dubbed Contacts in Metta, because it contains entities you are communicating with.
 Address Book gathers all contact information about your peers, so it's just as easy to send an osdev forum PM, SMS or a gtalk message from the same address book entry. Mail or incoming messages handling is done in the same way - you can open your contact in address book and see through recent history or unread, incoming or even dig deeper for older messages from them. Much like gmail interface keeps track of your conversations, address book is the entry point to everything that happens between you two. Even more - a group of people, such as a skype group chat or IRC chat room. Or your organization's structural unit, which is no different. Of course, there will be a way to stay alert of current incoming conversations, with popups and sounds and however else you configure it for yourself. Your peers are connected into a social graph, with multiple levels and different relations between them and other entities. Metta helps manage these graphs with ease.
 
 
 
 Data exchange
-@sa devices interchanging data when in proximity. find url.
+
+sa devices interchanging data when in proximity. find url.
 -- @todo organize --
 amines — little agents that bind social services to exocortex. Mettamphetamine - main driver Dopplamine - doppler binding Twittamine - twitter binding etc Tryptamine - googlewave binding? :D
+
 Xanadu 17 rules:
+
 Every Xanadu server is uniquely and securely identified. 
+
 Every Xanadu server can be operated independently or in a network. 
+
 Every user is uniquely and securely identified. 
+
 Every user can search, retrieve, create and store documents. 
+
 Every document can consist of any number of parts each of which may be of any data type. 
+
 Every document can contain links of any type including virtual copies ("transclusions") to any other document in the system accessible to its owner. 
+
 Links are visible and can be followed from all endpoints. 
+
 Permission to link to a document is explicitly granted by the act of publication. 
+
 Every document can contain a royalty mechanism at any desired degree of granularity to ensure payment on any portion accessed, including virtual copies ("transclusions") of all or part of the document. 
+
 Every document is uniquely and securely identified. 
+
 Every document can have secure access controls. 
+
 Every document can be rapidly searched, stored and retrieved without user knowledge of where it is physically stored. 
+
 Every document is automatically moved to physical storage appropriate to its frequency of access from any given location. 
+
 Every document is automatically stored redundantly to maintain availability even in case of a disaster. 
+
 Every Xanadu service provider can charge their users at any rate they choose for the storage, retrieval and publishing of documents. 
 Every transaction is secure and auditable only by the parties to that transaction. 
+
 The Xanadu client-server communication protocol is an openly published standard. Third-party software development and integration is encouraged. 
-Status 
-API 
-Training 
-Shop 
-Blog 
-About 
-Pricing 
-© 2015 GitHub, Inc. 
-Terms 
-Privacy 
-Security 
-Contact 
-Help 
 
