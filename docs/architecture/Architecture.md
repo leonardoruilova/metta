@@ -1,7 +1,7 @@
 
 Descripción de la arquitectura Metta 
 
-Metta es un sistema operativo exo-cortical que cumple las siguientes funciones: memoria externa y agente de interacción social. Esta es la tarea primaria, además del propósito de otorgar asistencia móvil y multimedia. Hemos definido mayormente dicha tarea en un proyecto de pares denominado MettaNode.
+Metta es un sistema operativo exo-cortical que cumple las siguientes funciones: memoria externa y agente de interacción social. Las características recién mencionadas son tareas primordiales, además de la asistencia móvil y la asistencia multimedia. 
 
 El sistema operativo debe proveer medios para tant compartir como recopilar información de relevancia a ud. A este procedimiento lo denominamos "Exocorteza".
 
