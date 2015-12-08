@@ -1,15 +1,3 @@
-Descripción de Arquitectura de Metta
-
-Propósito
-
-
-El desarrollo de la tecnología ha culminado en una situación en la que los dispositivos son omnipresentes a invisibles. Es un desafío que los sistemas operativos aún no han superado.
-
-En el proyecto Metta nuestra intención es lograr un sistema operativo que abarque tanto dispositivos móviles como tecnologías para el hogar, con el beneficio de la sencillez en la configuracion y además con el plus de generar comunicación entre personas dentro de las redes sociales y dentro del contexto del lugar donde se desarrolla la relación entre seres humanos. Al decir de Bill Gates en 1997, «Information at your fingertips», esto es, hardware y software que facilita la expresión de sí mismo al reducir la dificultad para crear, modificar o publicar textos, archivos sonoros y video.
-
-En el sistema operativo Metta podremos encontrar flexibilidad. Dicha cualidad es definida como gestionar información mediante la distribución de tareas en nodos a través de una red, a la vez que se mantiene la integridad de la información y se protege la privacidad del usuario. En un computador aislado de la red el uso de Metta provee a interfaces simples, con la filosofía  «getting things done».
-
-(Texto proveniente de la presentación)
 
 Descripción de la arquitectura Metta 
 
