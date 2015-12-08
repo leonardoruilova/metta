@@ -116,7 +116,7 @@ Las operaciones de protección de memoria son llevadas a cabo por la aplicación
 
 También es necesario que el marco usado para el mapeo, así como el marco que está siendo desmapeado, sea validado. Dicho procedmiento implica el asegurar que el dominio de llamada posea el marco y que dicho marco no esté siendo mapeado o nailed. Dichas condiciones son chequeadas mediante el RamTab, el cual conforma una estructura suficientemente sencilla como para ser usada a bajo nivel.
 
-Protection is carried out at stretch granularity -- every protection domain provides a mapping from the set of valid stretches to a subset of read, write, execute, meta. A domain which holds the meta right is authorised to modify protections and mappings on the relevant stretch. Domain may grant read/write/execute to another domain, if needed. Meta is only available to the owner and can be passed to one domain at a time only.
+La protección es llevada al nivel de stretch granularity, por ende cada dominio de protección provee un mapeo del conjunto de stretches válidos a u subconjunto de dominios de lectura, escritura, ejecución y dominios meta. Un dominio el cual sostenga privilegios meta tiene la autorización para modificar protecciones y mapeos en el stretch relevante. Los dominios podrían otorgar garantías de lectura, escritura y ejecución a otros dominios, en caso de ser necesarios. Meta se encuentra disponible solamente al propietario y podrá ser entregado sólo a un dominio a la vez.
 
 The accessibility of a stretch is determined by a combination of two things: the permissions for the stretch in the current protection domain and the global permissions of the stretch. The global permissions specify a minimum level of access that all domains share.
 
