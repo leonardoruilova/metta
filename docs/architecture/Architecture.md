@@ -118,7 +118,7 @@ También es necesario que el marco usado para el mapeo, así como el marco que e
 
 La protección es llevada al nivel de stretch granularity, por ende cada dominio de protección provee un mapeo del conjunto de stretches válidos a u subconjunto de dominios de lectura, escritura, ejecución y dominios meta. Un dominio el cual sostenga privilegios meta tiene la autorización para modificar protecciones y mapeos en el stretch relevante. Los dominios podrían otorgar garantías de lectura, escritura y ejecución a otros dominios, en caso de ser necesarios. Meta se encuentra disponible solamente al propietario y podrá ser entregado sólo a un dominio a la vez.
 
-The accessibility of a stretch is determined by a combination of two things: the permissions for the stretch in the current protection domain and the global permissions of the stretch. The global permissions specify a minimum level of access that all domains share.
+La accesibilidad de un stretch se encuentra determinada por una combinación de dos factores:  tanto los permisos para el stretch en el actual dominio de protección como por los privilegios globales del stretch. Los permisos globales especifican un mínimo nivel de acceso a todos los dominios compartidos.
 
 
 Translation system
