@@ -110,7 +110,7 @@ Detalle de implementación: Por motivos de eficiencia en la arquitectura x86 exi
 
 Stretches
 
-Any domain may request a stretch from a stretch allocator, specifying the desired size and (optionally) a starting address and attributes. Should the request be successful, a new stretch will be created and returned to the caller. The caller is now the owner of the stretch. The starting address and length of the returned stretch may then be queried; these will always be a multiple of the machine's page size. The stretch is a part of protection domain.
+Cualquier dominio podría requerir un stretch desde un stretch allocator mediante la especificación del tamaño deseado y opcionalmente un espacio de direcciones y atributos relacionados. El llamado a la memoria debería ser exitoso, será creado un nuevo stretch y llevado de vuelta al caller. El caller es ahora el propietario del stretch. Las direcciones de partida y el tamaño del  returned stretch deberían ser pedidos expresamente, las direcciones y el tamaño del returned stretch serán siempre múltiplos del tamaño de página del computador. El stretch es una parte integral del dominio de protección.
 
 Memory protection operations are carried out by the application through the stretch interface. This talks directly to the low-level translation system via simple system calls; it is not necessary to communicate with the system domain. Protection can be carried out in this way due to the protection model chosen which includes explicit rights for "change permissions" operations. A light-weight validation process checks if the caller is authorised to perform an operation.
 
