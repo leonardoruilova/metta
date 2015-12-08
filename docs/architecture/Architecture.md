@@ -1,38 +1,4 @@
-berkus/metta 
-
-Arquitectura
-
-Inicio 
-
-Arquitectura 
-
-Bibliografía 
-
-Sistema de compilación 
-
-Dashboard 
-
-Gestión de dependencias 
-
-Notas para el desarrollo
-
-Sistema de archivos
-
-Flask 
-
-Fluke 
-
-Goals 
-
-Lyrical 
-
-Manifest 
-
-MeddleGrammar 
-
-MigratingThreads 
-
-
+Descripción de Arquitectura de Metta
 
 Propósito
 
