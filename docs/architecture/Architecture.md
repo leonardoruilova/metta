@@ -100,9 +100,9 @@ La implementación consiste en kickstart, código "glue", componentes de computa
 
 Espacio Único de Direcciones
 
-Virtual address space in Metta is single, shared between all processes. This means that virtual to physical mapping is equivalent in all domains.
+El espacio de memoria virtual en el sistema operativo Metta es único y compartido por todos los procesos, lo cual implica que todo mapeo de memoria físico es equivalente al espacio de memoria virtual.
 
-One or more domains may be part of the same protection domain. This means they have the same access rights to the same set of virtual address ranges.
+Uno o más dominios podrían ser partes del mismo dominio de protección, lo cual implica que tendremos dominios con los mismos privilegios de acceso a idénticos rangos de espacios de direcciones.
 
 Domain may be part of more than one protection domains. This allows easy sharing by specifying protection domains at the stretch level and by adding domains using the same stretch into the same protection domain.
 Implementation detail: on x86, for efficiency there is only one page directory and access rights for the memory frame correspond to global stretch access rights. Once the domain is activated and tries to perform operation not allowed by the global rights, it will fault and the fault handler will then check, if protection domain has more rights actually, in this case the page directory will be updated with new rights and the stretch these frames belong to will be added to a "altered stretches" list for the domain.
