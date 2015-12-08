@@ -3,7 +3,7 @@ Descripción de la arquitectura Metta
 
 Metta es un sistema operativo exo-cortical que cumple las siguientes funciones: memoria externa y agente de interacción social. Las características recién mencionadas son tareas primordiales, además de la asistencia móvil y la asistencia multimedia. 
 
-El sistema operativo debe proveer medios para tant compartir como recopilar información de relevancia a ud. A este procedimiento lo denominamos "Exocorteza".
+El sistema operativo debe proveer medios para tant compartir como recopilar información de relevancia a ud. A este procedimiento lo denominamos "Exo-corteza".
 
 El sistema operativo debe ser un asistente para recopilar información que permita tanto recibir como filtrar, clasificar y mostrar datos de interés y en la manera más cómoda que sea posible.
 
@@ -95,11 +95,10 @@ Arquitectura general
 
 El sistema operativo Metta se implementa en un único espacio de Direcciones con fines de gestión de QoS mediante las tecnologías usadas en el sistema operativo Nemesis el cual conforma parte del proyecto Pegasus dentro de los laboratorios de la Universidad de  Cambridge.
 
-La implementación consiste en kickstart, código "glue", componentes de computación fiable, componentes de biblioteca y aplicaciones. Applications are vertically integrated - they perform most of the management themselves with high adaptivity and maintain QoS guarantees by removing contention in services usually done by the OS, which often become bottlenecks.
-Common functionality is implemented as library components, which give standard tested implementations of many functions needed by applications in Metta environment, and also save memory by sharing code and static data between applications.
+La implementación consiste en kickstart, código "glue", componentes de computación fiable, componentes de biblioteca y aplicaciones. Las Aplicaciones son integradas verticalmente, llevan a cabo la mayor parte de la gestión con cualidades tales como alta adaptabilidad y mantención de garantías QoS mediante la eliminación del almacenamiento en servicios comúnmente llevados por el sistema operativo, dicho almacenamiento produce cuellos de botella a menudo.
 
 
-Single Address Space
+Espacio Único de Direcciones
 
 Virtual address space in Metta is single, shared between all processes. This means that virtual to physical mapping is equivalent in all domains.
 
