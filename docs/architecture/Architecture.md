@@ -104,8 +104,9 @@ El espacio de memoria virtual en el sistema operativo Metta es único y comparti
 
 Uno o más dominios podrían ser partes del mismo dominio de protección, lo cual implica que tendremos dominios con los mismos privilegios de acceso a idénticos rangos de espacios de direcciones.
 
-Domain may be part of more than one protection domains. This allows easy sharing by specifying protection domains at the stretch level and by adding domains using the same stretch into the same protection domain.
-Implementation detail: on x86, for efficiency there is only one page directory and access rights for the memory frame correspond to global stretch access rights. Once the domain is activated and tries to perform operation not allowed by the global rights, it will fault and the fault handler will then check, if protection domain has more rights actually, in this case the page directory will be updated with new rights and the stretch these frames belong to will be added to a "altered stretches" list for the domain.
+El dominio podría ser parte de uno o más dominios de protección, esto implica que es fácil el compartir a través de la especificación de dominios de protección al stretch level al agregar dominios que usen el mismo dominio de protección.
+
+Detalle de implementación: Por motivos de eficiencia en la arquitectura x86 existe sólo una página de directorio y privilegios de acceso al marco de memoria correspondiente al global stretch access rights. Una vez que el dominio ha sido activado e intenta realizar operaciones no permitidas por los privilegios globales, it will fault and the fault handler will then check, if protection domain has more rights actually, in this case the page directory will be updated with new rights and the stretch these frames belong to will be added to a "altered stretches" list for the domain.
 
 Stretches
 
