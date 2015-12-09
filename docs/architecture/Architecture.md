@@ -122,9 +122,9 @@ La protección es llevada al nivel de stretch granularity, por ende cada dominio
 La accesibilidad de un stretch se encuentra determinada por una combinación de dos factores:  tanto los permisos para el stretch en el actual dominio de protección como por los privilegios globales del stretch. Los permisos globales especifican un mínimo nivel de acceso a todos los dominios compartidos.
 
 
-Translation system
+Sistema de traducción
 
-The translation system deals with inserting, retrieving or deleting mappings between virtual and physical addresses. As such it may be considered an interface to a table of information held about these mappings; the actual mapping will typically be performed as necessary by whatever memory management hardware or software is present.
+El sistema de traducción lidia con las direcciones virtuales y física, específicamente con la inserción, recuperación o eliminación de mapeos en dichas memorias. As such it may be considered an interface to a table of information held about these mappings; the actual mapping will typically be performed as necessary by whatever memory management hardware or software is present.
 
 The translation system is divided into two parts: a high-level management module, and the low-level trap handlers and system calls. The high-level part is private to the system domain, and handles the following:
 
