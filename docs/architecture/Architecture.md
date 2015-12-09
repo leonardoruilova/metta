@@ -174,9 +174,9 @@ Los componentes también cuentan con la funcionalidad de exportar mediante una o
 
 Componentes de la biblioteca
 
-Los componentes de la biblioteca entregan la definición al substrato fundamental sobre el cual serán construidas todas las aplicaciones. Library components are real components and they export typed interfaces just like any other component does. Most library components are colocated into the same protection domain as the application using them.
+Los componentes de la biblioteca entregan la definición al substrato fundamental sobre el cual serán construidas todas las aplicaciones. Los componentes de la biblioteca son reales y exportan interfaces tipeadas tal como lo hacen otros componentes. La mayor parte de los componentes de biblioteca están ubicados en el mismo dominio de protección y las aplicaciones le dan uso.
 
-Dynamic loader (Sjofn), similar to OMOS server, is used to perform component relocation and linking. Employed memory and loading models allow to share code and static data between all domains efficiently.
+El cargador dinámico, Sjofn, el cual guarda parecido con el servidor OMOS es utilizado para realizar enlazado y relocalización de componentes. La memoria empleada así como los modelos cargados comparten de modo eficiente el código entre los datos estáticos y todos los dominios.
 
 Meta-objects (in OMOS sense) are used to create generator interfaces which instantiate modules, used by application.
 
