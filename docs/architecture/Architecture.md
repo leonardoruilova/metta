@@ -10,7 +10,7 @@ Este sistema operativo es un asistente recopilador de información que hace posi
 
 Además es un asistente que se usa para compartir información que permite la especificación de los niveles de privacidad así como la distribución de un almacenamiento seguro; esta publicación es enviada directamente a sus pares y otros medios.
 
-Con la finalidad de entregar servicios de almacenamento, gestión y recopilación de información de manera segura sostenemos el siguiente conjunto de principios:
+Con el fin de entregar servicios de almacenamento, gestión y recopilación de información de manera segura, se siguen rigurosamente  los siguientes principios fundamentales de ejecución:
 
 Debe ser posible la labor de distribuir trabajos y almacenarlos fluidamente entre nodos de confianza en la red del usuario. 
 
