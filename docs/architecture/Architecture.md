@@ -147,7 +147,7 @@ El Kickstart ejecuta todo el proceso de preinicialización antes de que el siste
 
 Glue code
 
-El Glue code performs only a minimally necessary subset of operations that require privileged CPU mode. This includes manipulating MMU tables and switching protection domains. This code is therefore not preemptible.
+El Glue code realiza solamente realiza un subconjunto muy minimalista de operaciones que requieren modo de CPU privilegiado. Esto incluye la gestión de tablas de la MMU así como cambiar entre un dominio de protección y  otro. This code is therefore not preemptible.
 
 
 Code exists in glue layer for a number of reasons:
