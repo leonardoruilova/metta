@@ -150,17 +150,17 @@ Glue code
 El Glue code realiza solamente realiza un subconjunto muy minimalista de operaciones que requieren modo de CPU privilegiado. Esto incluye la gestión de tablas de la MMU así como cambiar entre un dominio de protección y  otro. This code is therefore not preemptible.
 
 
-Code exists in glue layer for a number of reasons:
+Debido a las razones enumeradas a continuación, el código existe en la capa de pegamento:
 
-code is privileged and therefore needs to execute with supervisor permissions, 
+El código tiene privilegios importantes y por ende es necesario darle ejecución mediante permisos de administración, 
 
-code is executed because of exception or interrupt and therefore needs to be both privileged and uninterruptible, 
+El código es ejecutado debido a excepciones o interrupciones y por ende se hace necesario que el mismo sea tanto portador de privilegios como imposible de ser interrumpido, 
 
-code is generally used and needs to run atomically/uninterruptible. 
+El código es utilizado a menudo y se requiere que su ejecución sea tanto atómica como ininterrumpida. 
 
-Interrupts and exception handlers are also implemented as stubs in glue code, due to their privileged nature.
+Los gestores de interrupciones y excepciones también cuentan con implementaciones en la forma de stubs in glue code, debido a que cuentan con privilegios desde su origen.
 
-Some glue code syscalls are privileged and can be used only by members of the TCB, others are used by application processes to request work from other domains.
+Algunas llamadas a sistema con cualidad de glue code syscalls poseen privilegios y se les puede dar uso sólo por miembros de la base de computación confiable o TCB. Otras llamadas serán usadas por procesos de aplicaciones que requieran trabajo desde otros dominios.
 
 
 Trusted Computing Base
