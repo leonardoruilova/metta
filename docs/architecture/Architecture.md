@@ -8,7 +8,7 @@ El sistema operativo denominado exo-corteza tiene como objetivo principal provee
 
 Este sistema operativo es un asistente recopilador de información que hace posible la recepción, la filtración, la clasificación y la entrega de la misma de forma adecuada.
 
-Además es un asistente usado para compartir información que permite la especificación de los niveles de privacidad así como la distribución de un almacenamiento seguro;  esta publicación es enviada directamente a sus pares y otros medios.
+Además es un asistente que se usa para compartir información que permite la especificación de los niveles de privacidad así como la distribución de un almacenamiento seguro; esta publicación es enviada directamente a sus pares y otros medios.
 
 Con la finalidad de entregar servicios de almacenamento, gestión y recopilación de información de manera segura sostenemos el siguiente conjunto de principios:
 
