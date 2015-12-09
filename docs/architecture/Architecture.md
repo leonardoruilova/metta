@@ -24,7 +24,7 @@ El almacenamiento de datos debe ser asociativo y no jerárquico.  Deben ocurrir 
 Su información debe ser redundante, muy asequible, además debe ser almacenada de manera segura. Este concepto se denomina: "Publique una sola vez y comparta en cualquier sitio". 
 El procesamiento de multimedia y de datos significativos semánticos deberá suceder en un período de tiempo ajustado. 
 
-Los principios relativos a los aspectos técnicos del sistema operativo Metta son los siguientes:
+ A continuación se describen los principios que rigen las especificaciones técnicas del sistema operativo Metta:
 
 La gestión de calidad o "QoS management" ocurrirá en todos los niveles del sistema. Los agentes deben ser capaces de negociar  los recursos que hagan falta y el sistema operativo debe mantener las garantías prometidas a cada recurso. 
 
