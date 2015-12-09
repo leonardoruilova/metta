@@ -26,7 +26,7 @@ El procesamiento de multimedia y de datos significativos semánticos deberá suc
 
  A continuación se describen los principios que rigen las especificaciones técnicas del sistema operativo Metta:
 
-La gestión de calidad o "QoS management" ocurrirá en todos los niveles del sistema. Los agentes deben ser capaces de negociar  los recursos que hagan falta y el sistema operativo debe mantener las garantías prometidas a cada recurso. 
+En todos los niveles del sistema se gestionará la calidad del servicio; por lo tanto, los agentes deberán ser capaces de brindar los recursos necesarios y el sistema operativo deberá garantizar los recursos prometidos. 
 
 La implementación de un sistema altamente compartimentalizado y que se comporte como una caja de arena. Cuando se ejecuta agentes para el servicio a otros usuarios se vuelve fundamental el hecho de proveer seguridad de datos para cada uno de los usarios.  
 
