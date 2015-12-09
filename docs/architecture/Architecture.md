@@ -6,7 +6,7 @@ Metta es un sistema operativo exo-cortical que cumple las siguientes funciones: 
 El sistema operativo denominado exo-corteza tiene como objetivo principal proveer medios y fines para compartir y recopilar información de interés para usted.
 
 
-Este sistema operativo es un asistente recopilador de información que hace posible la recepción, la filtración, la clasificación y la entrega de la misma de forma adecuada.
+Este sistema operativo es un asistente recopilador de información que hace posible la recepción, filtración, clasificación y entrega de la misma de forma adecuada.
 
 Además es un asistente que se usa para compartir información que permite la especificación de los niveles de privacidad así como la distribución de un almacenamiento seguro; esta publicación es enviada directamente a sus pares y otros medios.
 
