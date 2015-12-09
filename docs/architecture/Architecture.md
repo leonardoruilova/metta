@@ -20,8 +20,8 @@ En la medida se lo posible, se debe sincronizar la información entre los nodos.
 
 No debe ocurrir la pérdida o caída de un nodo debido a una sobresaturación de trabajo. Se debe llegar a acuerdos en relación a las normas de calidad de servicio. 
 
-El almacenamiento de datos debe ser asociativo en vez de jerárquico. Los enlaces cruzados entre nodos deben ser realizados mediante relación semántica entre datos. 
-Su información debe ser redundante, altamente disponible y almacenada con seguridad. A este concepto lo denominamos bajo la frase "Publique una vez, comparta en todos lados". 
+El almacenamiento de datos debe ser asociativo y no jerárquico.  Deben ocurrir enlaces cruzados entre nodos a través de datos de relación semántica. 
+Su información debe ser redundante, muy asequible, además debe ser almacenada de manera segura. A este concepto lo denominamos bajo la frase "Publique una vez, comparta en todos lados". 
 El procesamiento de multimedia y datos significativos en o semántico deberá ser rápido. 
 
 Los principios relativos a los aspectos técnicos del sistema operativo Metta son los siguientes:
