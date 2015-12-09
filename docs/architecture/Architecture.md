@@ -163,9 +163,9 @@ Los gestores de interrupciones y excepciones también cuentan con implementacion
 Algunas llamadas a sistema con cualidad de glue code syscalls poseen privilegios y se les puede dar uso sólo por miembros de la base de computación confiable o TCB. Otras llamadas serán usadas por procesos de aplicaciones que requieran trabajo desde otros dominios.
 
 
-Trusted Computing Base
+Fundamento de computación confiable
 
-TCB components implement features absolutely necessary for application functioning and therefore define the OS kernel.
+El Fundamento de computación confiable, TCB, implementa características necesarias para que las aplicaciones funcionen, y pr ende, define el núcleo del sistema operativo.
 
 Kernel components have almost no private data, on which contention could arise. Most of the data for kernel calls is provided by the process engaged in the syscall, therefore not affecting service of other processes. This also helps API atomicity.
 
