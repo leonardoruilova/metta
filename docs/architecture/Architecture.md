@@ -126,7 +126,7 @@ Sistema de traducción
 
 El sistema de traducción lidia con las direcciones virtuales y física, específicamente con la inserción, recuperación o eliminación de mapeos en dichas memorias. El sistema de traducción debería ser entendido como una interfaz a una tabla con información acerca de los mapas de direcciones. Dicho mapeo deberá ser llevado a cabo sin importar si el sistema de gestión de memoria está conformado por hardware o software.
 
-The translation system is divided into two parts: a high-level management module, and the low-level trap handlers and system calls. The high-level part is private to the system domain, and handles the following:
+El sistema de traducción está dividido en dos partes: la primera es un módulo de gestión situado en alto nivel, la segunda está compuesta por los trap handlers de bajo nivel y las llamadas de sistema. La parte situada en el alto nivel es propia del dominio de sistema y maneja los siguientes elementos:
 
 Bootstrapping the MMU (in hardware or software), and setting up initial mappings, 
 Adding, modifying or deleting ranges of virtual addresses, and performing the associated page table management, 
