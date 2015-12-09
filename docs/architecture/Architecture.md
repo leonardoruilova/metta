@@ -132,7 +132,7 @@ Realización del proceso de Bootstrap a la MMU, ya sea en hardware o software, a
 
 El sistema de traducción en alto nivel es utilizado tanto por el stretch allocator como por el frames allocator. El stretch allocator le dá uso para configurar las entradas iniciales dentro de la tabla de páginas de memoria que ha creado o para eliminar aquellas entradas cuando un stretch ha sido destruido. Aquellas entradas contienen protección de información pero por omisión no serán válidas. Por ejemplo, aquellas direcciones de memoria dentro del rango que podrían causar un error de paginado en caso de ser accedidas.
 
-Placing this functionality within the system domain means that the low-level translation system does not need to be concerned with the allocation of page-table memory. It also allows protection faults, page faults and "unallocated address" faults to be distinguished and dispatched to the faulting application. The frames allocator, on the other hand, uses the RamTab to record the owner and logical frame width of allocated frames of main memory.
+Situar dicha funcionalidad dentro del dominio de sistema implica que la traducción a bajo nivel no requiere lidiar con allocation de page-table memory. Lo anterior también permite protección contra fallos, errores de paginación y direcciones "unallocated" que requieran ser distinguidas y enviadas a la aplicación que tiene errores. The frames allocator, on the other hand, uses the RamTab to record the owner and logical frame width of allocated frames of main memory.
 
 Stretch driver is located inside application space, provided by the shared library code or implemented by the application itself. It interfaces with frame allocator to provide backing RAM storage for stretches it manages.
 
