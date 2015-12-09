@@ -3,9 +3,10 @@ Descripción de la arquitectura Metta
 
 Metta es un sistema operativo exo-cortical que cumple las siguientes funciones: memoria externa y agente de interacción social. Las características recién mencionadas son tareas primordiales, además de la asistencia móvil y la asistencia multimedia. Parte de la exploración de dicha tarea es llevada a cabo en un proyecto Mettanodo entre pares.
 
-El sistema operativo denominado exo-corteza tiene como objetivo principal proveer medios y fines para compartir y recopilar información de interés para ud. 
+El sistema operativo denominado exo-corteza tiene como objetivo principal proveer medios y fines para compartir y recopilar información de interés para usted.
 
-Este sistema operativo es un asistente recopilador de información que hace posible la recepción, la filtración, la clasificación y la entrega de información importante de una manera adecuada.
+
+Este sistema operativo es un asistente recopilador de información que hace posible la recepción, la filtración, la clasificación y la entrega de la misma de una manera adecuada.
 
 El sistema operativo debe ser un asistente para compartir información que permita el especificar niveles de privacidad así como distribuir almacenamiento confiable y publicar directamente a sus pares y a otros medios.
 
