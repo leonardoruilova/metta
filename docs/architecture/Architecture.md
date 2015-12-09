@@ -134,7 +134,7 @@ El sistema de traducción en alto nivel es utilizado tanto por el stretch alloca
 
 Situar dicha funcionalidad dentro del dominio de sistema implica que la traducción a bajo nivel no requiere lidiar con allocation de page-table memory. Lo anterior también permite protección contra fallos, errores de paginación y direcciones "unallocated" que requieran ser distinguidas y enviadas a la aplicación que tiene errores. Por otra parte, el frames allocator, dá uso al RamTab para almacenar tanto el propietario como el ancho del marco lógico en los allocated frames de memoria principal.
 
-Stretch driver is located inside application space, provided by the shared library code or implemented by the application itself. It interfaces with frame allocator to provide backing RAM storage for stretches it manages.
+El controlador de Stretch se encuentra dentro del espacio de aplicaciones y es suministrado por el código compartido de bibliotecas o es implementado por la aplicación en sí. El controlador de stretch funciona como interfaz para proveer almacenamiento de respaldo a la memoria RAM para los stretches que gestiona  dicho controlador .
 
 User domain calls map/unmap from the stretch driver. Either mapping or unmapping a virtual address "va" requires that the calling domain is executing in a protection domain which holds a meta right for the stretch containing "va". A consequence of this is that it is not possible to map a virtual address which is not part of some stretch.
 
