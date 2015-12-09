@@ -128,12 +128,7 @@ El sistema de traducción lidia con las direcciones virtuales y física, especí
 
 El sistema de traducción está dividido en dos partes: la primera es un módulo de gestión situado en alto nivel, la segunda está compuesta por los trap handlers de bajo nivel y las llamadas de sistema. La parte situada en el alto nivel es propia del dominio de sistema y maneja los siguientes elementos:
 
-Bootstrapping the MMU (in hardware or software), and setting up initial mappings, 
-Adding, modifying or deleting ranges of virtual addresses, and performing the associated page table management, 
-
-Creating and deleting protection domains, 
-
-Initialising and partly maintaining the RamTab; this is a simple data structure that maintains information about the current use of frames of main memory. 
+Realización del proceso de Bootstrap a la MMU, ya sea en hardware o software, así como la configuración de los mapeos iniciales y la gestión de las direcciones virtuales de memoria, en el sentido de agregar rangos de direcciones virtuales, modificarlos o eliminarlos e igualmente realizar la gestión de tabla de páginas de memoria. También la creación de dominios de protección o la eliminación de los mismos, la inicialización del RamTar y en parte su mantenimiento. El RamTab consiste en una estructura de datos sencilla que maneja información acerca del uso de los marcos de memoria principal. 
 
 The high-level translation system is used by both the stretch allocator and the frames allocator. The stretch allocator uses it to setup initial entries in the page table for stretches it has created, or to remove such entries when a stretch is destroyed. These entries contain protection information but are by default invalid: i.e. addresses within the range will cause a page fault if accessed.
 
