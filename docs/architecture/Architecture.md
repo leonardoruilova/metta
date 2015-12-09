@@ -172,9 +172,9 @@ Los componentes del núcleo practicamente no poseen datos privados, on which con
 Los componentes también cuentan con la funcionalidad de exportar mediante una o más interfaces. El núcleo y los componentes situados en espacio de usuario cuentan con acceso a través de las interfaces.
 
 
-Library Components
+Componentes de la biblioteca
 
-Library components define the base substrate upon which the whole applications are built. Library components are real components and they export typed interfaces just like any other component does. Most library components are colocated into the same protection domain as the application using them.
+Los componentes de la biblioteca entregan la definición al substrato fundamental sobre el cual serán construidas todas las aplicaciones. Library components are real components and they export typed interfaces just like any other component does. Most library components are colocated into the same protection domain as the application using them.
 
 Dynamic loader (Sjofn), similar to OMOS server, is used to perform component relocation and linking. Employed memory and loading models allow to share code and static data between all domains efficiently.
 
