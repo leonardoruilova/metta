@@ -167,9 +167,9 @@ Fundamento de computación confiable
 
 El Fundamento de computación confiable, TCB, implementa características necesarias para que las aplicaciones funcionen, y pr ende, define el núcleo del sistema operativo.
 
-Kernel components have almost no private data, on which contention could arise. Most of the data for kernel calls is provided by the process engaged in the syscall, therefore not affecting service of other processes. This also helps API atomicity.
+Los componentes del núcleo practicamente no poseen datos privados, on which contention could arise. La mayor parte de los datos para las llamadas al núcleo es suministrada por el proceso ligado a la llamada de sistema, por ende no influye en el servicio a otros procesos. Lo anterior contribuye a la atomicidad de la API.
 
-Components export functionality through one or more interfaces. Kernel and userspace components are accessed via interfaces alike.
+Los componentes también cuentan con la funcionalidad de exportar mediante una o más interfaces. El núcleo y los componentes situados en espacio de usuario cuentan con acceso a través de las interfaces.
 
 
 Library Components
