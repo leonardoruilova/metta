@@ -124,7 +124,7 @@ La accesibilidad de un stretch se encuentra determinada por una combinación de 
 
 Sistema de traducción
 
-El sistema de traducción lidia con las direcciones virtuales y física, específicamente con la inserción, recuperación o eliminación de mapeos en dichas memorias. As such it may be considered an interface to a table of information held about these mappings; the actual mapping will typically be performed as necessary by whatever memory management hardware or software is present.
+El sistema de traducción lidia con las direcciones virtuales y física, específicamente con la inserción, recuperación o eliminación de mapeos en dichas memorias. El sistema de traducción debería ser entendido como una interfaz a una tabla con información acerca de los mapas de direcciones. Dicho mapeo deberá ser llevado a cabo sin importar si el sistema de gestión de memoria está conformado por hardware o software.
 
 The translation system is divided into two parts: a high-level management module, and the low-level trap handlers and system calls. The high-level part is private to the system domain, and handles the following:
 
