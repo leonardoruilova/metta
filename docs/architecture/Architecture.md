@@ -5,7 +5,6 @@ Metta es un sistema operativo exo-cortical que cumple las siguientes funciones: 
 
 El sistema operativo denominado exo-corteza tiene como objetivo principal proveer medios y fines para compartir y recopilar información de interés para usted.
 
-
 Este sistema operativo es un asistente recopilador de información que hace posible la recepción, filtración, clasificación y entrega de datos de interés de forma adecuada.
 
 Además es un asistente que se usa para compartir información que permite la especificación de los niveles de privacidad así como la distribución de un almacenamiento seguro; esta publicación es enviada directamente a sus pares y otros medios.
@@ -21,7 +20,9 @@ En la medida se lo posible, se debe sincronizar la información entre los nodos.
 No debe ocurrir la pérdida o caída de un nodo debido a una sobresaturación de trabajo. Se debe llegar a acuerdos en relación a las normas de calidad de servicio. 
 
 El almacenamiento de datos debe ser asociativo y no jerárquico.  Deben ocurrir enlaces cruzados entre nodos a través de datos de relación semántica. 
+
 Su información debe ser redundante, muy asequible, además debe ser almacenada de manera segura. Este concepto se denomina: "Publique una sola vez y comparta en cualquier sitio". 
+
 El procesamiento de multimedia y de datos significativos semánticos deberá suceder en un período de tiempo ajustado. 
 
  A continuación se describen los principios que rigen las especificaciones técnicas del sistema operativo Metta:
@@ -141,12 +142,12 @@ El dominio de usuario ejecuta llamadas para mapear así como desmapear direccion
 
 Kickstart
 
-Kickstart does all preinitialization work needed to get system going - it creates a system privileged domain, initializes the MMU and boots processors, then gives control to the boot modules loader. Module loader will resolve module dependencies, determine load order and load the TCB modules — these are the most important system modules, always trusted by other components.
+El Kickstart ejecuta todo el proceso de preinicialización antes de que el sistema sea usable, el Kickstart se encarga de crear un dominio de sistema privilegiado, dará inicialización a la MMU y otorga el arranque a los procesadores, luego controla el módulo de carga de arranque. El módulo de carga ejecutará la resolución de las dependencias en cada uno de los módulos, igualmente decidirá el orden de carga y gestionará los módulos de computación confiable TCB, los cuales son los más importantes módulos debido a que de ellos depende la estabilidad de todo el resto de los módulos.
 
 
 Glue code
 
-Glue code performs only a minimally necessary subset of operations that require privileged CPU mode. This includes manipulating MMU tables and switching protection domains. This code is therefore not preemptible.
+El Glue code performs only a minimally necessary subset of operations that require privileged CPU mode. This includes manipulating MMU tables and switching protection domains. This code is therefore not preemptible.
 
 
 Code exists in glue layer for a number of reasons:
