@@ -180,9 +180,9 @@ El cargador dinámico, Sjofn, el cual guarda parecido con el servidor OMOS es ut
 
 En el sentido de OMOs, los Meta-objetos crean interfaces generadoras con módulos instanciados, los cuales son usados por aplicaciones.
 
-Applications
+Aplicaciones
 
-Components are pieces of code and static data (which has no mutable state). (Clemens Szypersky defines a software component as a unit of composition with contractually specified interfaces and explicit context dependencies only.)
+Los componentes son código y datos estáticos que carecen de estados mutables. Clemens Szypersky define los componentes de software como unidades que cuentan con interfaces especificadas contractuamente y sólo con dependencias explícitas de contexto. 
 
 Applications are built from interconnected components.
 
