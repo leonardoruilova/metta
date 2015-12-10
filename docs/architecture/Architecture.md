@@ -19,7 +19,7 @@ En la medida se lo posible, se debe sincronizar la información entre los nodos.
 
 No debe ocurrir la pérdida o caída de un nodo debido a una sobresaturación de trabajo. Se debe llegar a acuerdos en relación a las normas de calidad de servicio. 
 
-El almacenamiento de datos debe ser asociativo y no jerárquico.  Deben ocurrir enlaces cruzados entre nodos a través de datos de relación semántica. 
+El almacenamiento de datos debe ser asociativo y no jerárquico.  Deberían haber enlaces de nodos cruzados con datos de relación semántica completa. 
 
 Su información debe ser redundante, muy asequible, además debe ser almacenada de manera segura. Este concepto se denomina: "Publique una sola vez y comparta en cualquier sitio". 
 
