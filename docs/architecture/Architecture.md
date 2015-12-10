@@ -29,7 +29,7 @@ El procesamiento de multimedia y de datos significativos semánticos deberá suc
 
 En todos los niveles del sistema se gestionará la calidad del servicio; por lo tanto, los agentes deberán ser capaces de brindar los recursos necesarios y el sistema operativo deberá garantizar los recursos prometidos. 
 
-La implementación de un sistema altamente compartimentalizado y que se comporte como una caja de arena. Cuando se ejecuta agentes para el servicio a otros usuarios se vuelve fundamental el hecho de proveer seguridad de datos para cada uno de los usarios.  
+La implementación de un sistema altamente compartimentalizado y sistema de aislamiento de procesos. Cuando se ejecuta agentes para el servicio a otros usuarios se vuelve fundamental el hecho de proveer seguridad de datos para cada uno de los usarios.  
 
 Baja saturación en la gestión del sistema. La tecnología de un espacio de direcciones permite que sean evitadas operaciones costosas en recursos tales como copia de datos, las cuales son realizadas en el espacio de usuario y a la mayor velocidad que sea posible.
 
