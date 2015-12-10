@@ -21,9 +21,9 @@ No debe ocurrir la pérdida o caída de un nodo debido a una sobresaturación de
 
 El almacenamiento de datos debe ser asociativo y no jerárquico.  Deberían haber enlaces de nodos cruzados con datos de relación semántica completa. 
 
-Su información debe ser redundante, muy asequible, además debe ser almacenada de manera segura. Este concepto se denomina: "Publique una sola vez y comparta en cualquier sitio". 
+La información del usuario deberá ser redundante, muy asequible, además será almacenada de manera segura. Este concepto se denomina: "Publique una sola vez y comparta en cualquier sitio". 
 
-El procesamiento de multimedia y de datos significativos semánticos deberá suceder en un período de tiempo ajustado. 
+El procesamiento de multimedia y de datos significativos semánticos deberá ocurrir en un breve período de tiempo. 
 
  A continuación se describen los principios que rigen las especificaciones técnicas del sistema operativo Metta:
 
