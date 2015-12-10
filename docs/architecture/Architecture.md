@@ -184,9 +184,9 @@ Aplicaciones
 
 Los componentes son código y datos estáticos que carecen de estados mutables. Clemens Szypersky define los componentes de software como unidades que cuentan con interfaces especificadas contractuamente y sólo con dependencias explícitas de contexto. 
 
-Applications are built from interconnected components.
+Las aplicaciones son construidas mediante componentes interconectados.
 
-Applications consist of standard and custom components, which provide most of the functionality and main driver code. Applications service themselves - i.e. they service their own page faults or CPU scheduling decisions, often using standard components that provide necessary functionality already.
+Las aplicaciones consisten en en componentes personalizados y estándares, los cuales entregan la mayor parte de las funcionalidades aparte de proveer el código del controlador principal. Los servicios de aplicaciones en sí, por ejemplo, los servicios tienen sus propios fallos en páginas de memoria y decisiones en planificación de CPU.
 
 During startup application receives it's own domain, protection domain, initially not shared with any other domains a set of pervasives, among them a naming context which it can use to find other necessary components, a virtual CPU interface which it can use to make scheduling decisions (and also a scheduling domain, that represents this VCPU), a stretch and heap interfaces which it can use to allocate memory.
 
