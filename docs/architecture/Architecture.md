@@ -31,7 +31,7 @@ En todos los niveles del sistema se gestionará la calidad del servicio; por lo 
 
 El aislamiento de procesos es un mecanismo que consta de varios componentes; cuando éste ejecute agentes a nombre de otros usuarios, es fundamental que entregue seguridad y protección para los datos del usuario y los datos de terceras personas.
 
-Baja saturación en la gestión del sistema. La tecnología de un espacio de direcciones permite que sean evitadas operaciones costosas en recursos tales como copia de datos, las cuales son realizadas en el espacio de usuario y a la mayor velocidad que sea posible.
+Factores que bajan el rendimiento de la gestión del sistema. La tecnología de un espacio de direcciones permite prescindir de operaciones costosas tales como copia de datos, la mayoría de las operaciones son realizadas en el espacio de usuario a la mayor velocidad posible.
 
 Diagrama de la arquitectura en el sistema operativo Metta
 
