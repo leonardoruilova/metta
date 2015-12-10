@@ -29,7 +29,7 @@ El procesamiento de multimedia y de datos significativos semánticos deberá ocu
 
 En todos los niveles del sistema se gestionará la calidad del servicio; por lo tanto, los agentes deberán ser capaces de brindar los recursos necesarios y el sistema operativo deberá garantizar los recursos prometidos. 
 
-El aislamiento de procesos es un mecanismo que consta de varios componentes; cuando éste ejecute agentes a nombre de otros usuarios, es fundamental que entregue seguridad y protección de los datos del usuario y de los datos de terceras personas.
+El aislamiento de procesos es un mecanismo que consta de varios componentes; cuando éste ejecute agentes a nombre de otros usuarios, es fundamental que entregue seguridad y protección para los datos del usuario y los datos de terceras personas.
 
 Baja saturación en la gestión del sistema. La tecnología de un espacio de direcciones permite que sean evitadas operaciones costosas en recursos tales como copia de datos, las cuales son realizadas en el espacio de usuario y a la mayor velocidad que sea posible.
 
