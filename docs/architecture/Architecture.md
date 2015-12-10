@@ -178,7 +178,7 @@ Los componentes de la biblioteca entregan la definición al substrato fundamenta
 
 El cargador dinámico, Sjofn, el cual guarda parecido con el servidor OMOS es utilizado para realizar enlazado y relocalización de componentes. La memoria empleada así como los modelos cargados comparten de modo eficiente el código entre los datos estáticos y todos los dominios.
 
-Meta-objects (in OMOS sense) are used to create generator interfaces which instantiate modules, used by application.
+En el sentido de OMOs, los Meta-objetos crean interfaces generadoras con módulos instanciados, los cuales son usados por aplicaciones.
 
 Applications
 
