@@ -188,7 +188,7 @@ Las aplicaciones son construidas mediante componentes interconectados.
 
 Las aplicaciones consisten en en componentes personalizados y estándares, los cuales entregan la mayor parte de las funcionalidades aparte de proveer el código del controlador principal. Los servicios de aplicaciones en sí, por ejemplo, los servicios tienen sus propios fallos en páginas de memoria y decisiones en planificación de CPU.
 
-During startup application receives it's own domain, protection domain, initially not shared with any other domains a set of pervasives, among them a naming context which it can use to find other necessary components, a virtual CPU interface which it can use to make scheduling decisions (and also a scheduling domain, that represents this VCPU), a stretch and heap interfaces which it can use to allocate memory.
+En el inicio de la aplicación ella recibe su propio dominio, así como su dominio de protección. Ninguno de los dos están compartidos durante el inicio con cualquier otro dominio(any other domains a set of pervasives), mientras ellos contienen un contexto de nombramiento el cual puede ser usado para encontrar otros componentes necesarios, una interfaz virtual de CPU la cual puede ser usada para make scheduling decisions (and also a scheduling domain, that represents this VCPU), a stretch and heap interfaces which it can use to allocate memory.
 
 Applications run in domains. The kernel's view of a domain is limited to a single data structure called the Domain Control Block. Kernel uses DCBs to schedule domains' CPU time and other resources.
 
