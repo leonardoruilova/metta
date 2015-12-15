@@ -190,7 +190,7 @@ Las aplicaciones consisten en en componentes personalizados y estándares, los c
 
 En el inicio de la aplicación ella recibe su propio dominio, así como su dominio de protección. Ninguno de los dos están compartidos durante el inicio con cualquier otro dominio(any other domains a set of pervasives), mientras ellos contienen un contexto de nombramiento el cual puede ser usado para encontrar otros componentes necesarios, una interfaz virtual de CPU la cual puede ser usada realizar decisiones de scheduling  y también un dominio de scheduling el cual representa esta interfaz virtual de CPU, VCPU), interfaces stretch y heap las cuales pueden ser utilizadas para allocate memory.
 
-Applications run in domains. The kernel's view of a domain is limited to a single data structure called the Domain Control Block. Kernel uses DCBs to schedule domains' CPU time and other resources.
+Las aplicaciones son ejecutadas dentro de los dominios. La percepción desde el núcleo hacia el dominio se limita a una sóla estructura de datos llamada el Control de Bloques del Dominio. El núcleo usa el CBD para gestionar el tiempo de uso del CPU por parte del dominio, así como otros recursos. 
 
 
 Interfaces
