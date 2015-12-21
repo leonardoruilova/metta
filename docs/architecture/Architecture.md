@@ -199,7 +199,7 @@ Todas las interfaces tienen tipado fuerte y dicho tipado se encuentra definido e
 
 Los tipos de datos concretos son tipos de datos cuya estructura cuya estructura es explícita. Dichos tipos de dato son predefinidos, tales como tipo booleano, cadenas de textos y enteros de varios tamaños, o construidos tales como grabaciones y secuencias. El espacio de los tipos de dato concretos también incluye referencias tipadas a interfaces.
 
-Interfaces are instances of ADTs. Interfaces are rarely static: they can be dynamically created and references to them passed around freely. The type system includes a simple concept of subtyping. An interface type can be a subtype of another ADT, in which case it supports all the operations of the supertype, and an instance of the subtype can be used where an instance of the supertype is required.
+Las interfaces son instancias de ADT y pocas veces son estáticas, pueden ser creadas dinámicamente y pueden recibir referencias de manera liberal. The type system includes a simple concept of subtyping. An interface type can be a subtype of another ADT, in which case it supports all the operations of the supertype, and an instance of the subtype can be used where an instance of the supertype is required.
 
 
 The operations supported by interfaces are like procedure calls: they take a number of arguments and normally return a number of results. They can also raise exceptions, which themselves can take arguments.
