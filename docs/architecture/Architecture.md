@@ -202,7 +202,7 @@ Los tipos de datos concretos son tipos de datos cuya estructura cuya estructura 
 Las interfaces son instancias de ADT y pocas veces son estáticas, pueden ser creadas dinámicamente y pueden recibir referencias de manera liberal. El sistema de tipado incluye un concepto de subtipado. Un tipado de interfaz puede ser un subtipo de otro ADT y en tal caso tiene soporte para todas las operaciones del tipado superior y una instancia del subtipo podria ser utilizada donde sea requerida una instancia del tipo superior.
 
 
-Las operaciones a las que el lenguaje entrega soporte mediante interfaces se comportan como llamadas a procedimientos: toman un número de argumentos y entregan como salida un número de resultados. They can also raise exceptions, which themselves can take arguments.
+Las operaciones a las que el lenguaje entrega soporte mediante interfaces se comportan como llamadas a procedimientos: toman un número de argumentos y entregan como salida un número de resultados. Dichas operaciones pueden entregar excepciones las cuales a su vez pueden recibir argumentos.
 
 An interface definition language is used to specify the types, exceptions and methods of an interface, and a run-time typesystem allows the narrowing of types and the marshaling of parameters for non-local procedure invocations.
 Interfaces are defined in an IDL language called Meddle, a compiler named meddler will generate proper stubs from these IDL declarations. Interface compiler is based on LLVM framework together with the rest of JIT system.
