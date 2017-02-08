@@ -204,8 +204,8 @@ Las interfaces son instancias de ADT y pocas veces son estáticas, pueden ser cr
 
 Las operaciones a las que el lenguaje entrega soporte mediante interfaces se comportan como llamadas a procedimientos: toman un número de argumentos y entregan como salida un número de resultados. Dichas operaciones pueden entregar excepciones las cuales a su vez pueden recibir argumentos.
 
-An interface definition language is used to specify the types, exceptions and methods of an interface, and a run-time typesystem allows the narrowing of types and the marshaling of parameters for non-local procedure invocations.
-Interfaces are defined in an IDL language called Meddle, a compiler named meddler will generate proper stubs from these IDL declarations. Interface compiler is based on LLVM framework together with the rest of JIT system.
+Utilizamos un lenguaje de definir interfaces para especificar los tipos, excepciones y metodos de una interfaz, asi como un and  run-time typesystem que permite la especificacion te tipos y el marshaling of parameters para non-local procedure invocations.
+Las interfaces son definidas en un lenguaje IDL denominado Meddle, un compilador conocido como meddler will generate proper stubs from these IDL declarations. Interface compiler is based on LLVM framework together with the rest of JIT system.
 
 
 Naming contexts
